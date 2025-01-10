@@ -1,4 +1,0 @@
-if (`window -q -ex tweenMachineWin`)
-deleteUI tweenMachineWin ;
-else
-source "tweenMachine"; tweenMachine
