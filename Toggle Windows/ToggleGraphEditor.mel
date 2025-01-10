@@ -1,0 +1,4 @@
+if (`window -q -ex graphEditor1Window`)
+	deleteUI graphEditor1Window;
+else
+	tearOffPanel "Graph Editor" "graphEditor" true;
